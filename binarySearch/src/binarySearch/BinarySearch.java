@@ -25,7 +25,7 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		int data[] = { 1,4,7,9,17,67 };
 		int len = data.length;
-		int result = binarySearch(0, len - 1, data,17);
+		int result = binarySearch(0, len - 1, data,67);
 		System.out.println("index where value  is: "+result);
 	}
 }
